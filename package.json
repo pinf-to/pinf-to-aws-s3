@@ -1,0 +1,17 @@
+{
+  "uid": "github.com/pinf-to/pinf-to-aws-s3",
+  "name": "pinf-to-aws-s3",
+  "version": "0.1.0",
+  "main": "plugin.js",
+  "dependencies": {
+    "to.pinf.lib": "0.1.x",
+    "bash.origin": "0.1.x",
+    "aws-sdk": "^2.1.17",
+    "s3": "^4.4.0"
+  },
+  "config": {
+    "pio.deploy.converter": {
+      "name": "nodejs-lib"
+    }
+  }
+}
